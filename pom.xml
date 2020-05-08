@@ -5,7 +5,7 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-java-project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <!--<name>maven-web-project</name>-->
   <url>http://maven.apache.org</url>
