@@ -29,4 +29,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Maven-Java-Project-Snapshot</name>
+      <url>http://localhost:8085/repository/Maven-Java-Project-Snapshot/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus</id>
+      <name>Maven-Java-Project-Release</name>
+      <url>http://localhost:8085/repository/Maven-Java-Project-Release/</url>
+    </repository>
+  </distributionManagement>
 </project>
