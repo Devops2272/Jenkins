@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <plugin>            
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-war-plugin</artifactId>
+  <configuration>
+    <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
+  </configuration>
+</plugin>
+  
 </web-app>
